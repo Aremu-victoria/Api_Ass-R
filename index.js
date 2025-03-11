@@ -198,7 +198,7 @@ const countries = [
 ];
 
 
-app.get('/api', (req, res) => {
+app.get('/api1', (req, res) => {
         res.send(foods)    
 });
 app.get('/api2', (req, res) => {
