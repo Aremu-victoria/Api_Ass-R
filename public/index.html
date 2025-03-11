@@ -18,19 +18,11 @@
             margin-top: 80px;
             color: white;
             margin-bottom: 50px;
-        }
-        a button {
-            border-radius: 10px;
-            height: 100px;
-            width: 100px;
-            margin-top: 100px;
-            margin-left: 30px;
-        }
-        .nav {
-            margin-left: 540px;
+            text-align: center;
         }
         p {
             color: white;
+            text-align: center;
         }
         .welcome-container {
             display: flex;
@@ -40,7 +32,6 @@
         .welcome-text {
             font-size: 24px;
             font-weight: bold;
-           margin-right: 650px;
             animation: colorChange 2s infinite alternate;
         }
         @keyframes colorChange {
@@ -60,16 +51,19 @@
             <span class="welcome-text">You Are Welcome </span>
         </div>
     </nav>  
-    <h1 align="center">My API</h1>
-    <p align="center">
+
+    <h1>My API</h1>
+    <p>
         My API is built using Node.js and Express, with MongoDB as the database. It handles data storage <br> 
         and retrieval efficiently, supporting CRUD operations (Create, Read, Update, Delete). The API is secure, scalable, <br> 
         and designed for seamless integration with web and mobile applications.
     </p>
-    <div class="nav">
+
+    <div class="d-flex justify-content-center gap-3 mt-5">
         <a href="/api1"><button class="btn btn-primary">API 1</button></a>
         <a href="/api2"><button class="btn btn-danger">API 2</button></a>
         <a href="/api3"><button class="btn btn-success">API 3</button></a>
     </div>
+    
 </body>
 </html>
